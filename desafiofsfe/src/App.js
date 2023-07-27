@@ -1,19 +1,22 @@
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import React from "react";
 import Home from './components/home';
+import CadastrarEmpresa from './components/cadastrarEmpresa';
 
 function App() {
   return (
     <Router>
       <div>
-        <p> olar </p>
+        <Link to="/cadastrarEmpresa"> Empresa </Link>
       </div>
 
-      <Switch>
-        <Route path='/'>
-          <Home/>
-        </Route>
-      </Switch>
+      <Routes>
+
+        <Route exact path="/" element={<Home/>}/>
+        <Route path='/cadastrarEmpresa' element={<CadastrarEmpresa/>}/>
+        
+      </Routes>
+
     </Router>
     
   )
