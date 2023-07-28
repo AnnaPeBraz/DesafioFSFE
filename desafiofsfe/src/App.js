@@ -2,13 +2,12 @@ import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import React from "react";
 import Home from './components/home';
 import CadastrarEmpresa from './components/cadastrarEmpresa';
+import NavBar from './components/navbar';
 
 function App() {
   return (
     <Router>
-      <div>
-        <Link to="/cadastrarEmpresa"> Empresa </Link>
-      </div>
+      <NavBar/>
 
       <Routes>
 
