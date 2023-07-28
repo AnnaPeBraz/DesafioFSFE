@@ -1,10 +1,13 @@
 import React from "react";
+import styles from "./home.module.css"
+
 
 function Home(){
     return(
-        <div>
-            <h1>Home</h1>
-        </div>
+        <section className={styles.home_container}>
+            <h1>Bem vindo!</h1>
+            <p>Como gostaria de seguir?</p>
+        </section>
     )
 }
 
