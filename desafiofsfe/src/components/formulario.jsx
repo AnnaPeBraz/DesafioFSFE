@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "./Input";
+import SubmitButton from "./buttonSubmit";
 // import InputMask from "react-input-mask";
 
 function FormCadastroEmpresa(){
@@ -23,12 +24,15 @@ function FormCadastroEmpresa(){
                 name="CEP"
                 placeholder="CEP"
             />
+
+            <SubmitButton text="entrar"/>
+
             {/* <InputMask 
                 mask="99.999.999/9999-99" 
                 value={value} 
                 onChange={onChange}
             /> */}
-        
+            
         </form>
     )
 }

@@ -15,3 +15,9 @@
 .cadastro_container p {
     margin: 2em;
 }
+
+.btns_containers {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
