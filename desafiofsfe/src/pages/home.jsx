@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/home.module.css"
-import ButtonLink from "../buttonLink";
+import ButtonLink from "../components/buttonLink";
 
 
 function Home(){

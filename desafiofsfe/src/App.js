@@ -1,10 +1,10 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import React from "react";
-import Home from './components/pages/home';
-import CadastrarEmpresa from './components/pages/cadastrarEmpresa';
+import Home from './pages/home';
+import CadastrarEmpresa from './pages/cadastrarEmpresa';
 import NavBar from './components/navbar';
-import CadastrarFornecedor from './components/pages/cadastrarFornecedor';
-import Consulta from './components/pages/consultarCadastro';
+import CadastrarFornecedor from './pages/cadastrarFornecedor';
+import Consulta from './pages/consultarCadastro';
 
 
 function App() {

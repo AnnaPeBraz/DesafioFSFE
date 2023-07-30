@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./styles/buttonLink.module.css"
+import style from "../styles/buttonLink.module.css"
 
 function SubmitButton ( {text} ) {
     return (

@@ -1,8 +1,7 @@
 import React from "react";
 import style from "../styles/cadastrarEmpresa.module.css"
-import ButtonLink from "../buttonLink";
-import SubmitButton from "../buttonSubmit";
-import FormCadastroFornecedor from "../formularioFornecedor";
+import ButtonLink from "../components/buttonLink";
+import FormCadastroFornecedor from "../components/formularioFornecedor";
 
 function CadastrarFornecedor(){
     return(

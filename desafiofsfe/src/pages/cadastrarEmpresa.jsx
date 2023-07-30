@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "../styles/cadastrarEmpresa.module.css"
-import FormCadastroEmpresa from "../formulario";
-import ButtonLink from "../buttonLink";
-import SubmitButton from "../buttonSubmit";
+import FormCadastroEmpresa from "../components/formulario";
+import ButtonLink from "../components/buttonLink";
 
 function CadastrarEmpresa(){
+
+    const [cnpj, setCnpj] = useState([])
+    
     return(
         <div className={style.cadastro_container}>
             <h1>Cadastro de Empresa</h1>

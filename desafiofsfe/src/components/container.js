@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./styles/customClass.module.css"
+import style from "../styles/customClass.module.css"
 
 function Container (props){
     return (

@@ -2,10 +2,11 @@ import React from "react";
 import Input from "./Input";
 import SubmitButton from "./buttonSubmit";
 // import InputMask from "react-input-mask";
+import style from "../styles/customClass.module.css";
 
 function FormCadastroEmpresa(){
     return (
-        <form >
+        <form className={style.form}>
             <Input
                 type="text"
                 text="Insira o CNPJ"
