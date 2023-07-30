@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/consultarCadastro.css";
 
 function Consulta(){
 
@@ -16,9 +17,8 @@ function Consulta(){
     ])
 
     return(
-        <div>
+        <div className="container">
             <h1>Consultar Cadastro</h1>
-            <h2>CNPJ, nome, CEP</h2>
             <div>
                 {cadastro.map((cadastro => (
                     <div className="cadastros">
@@ -31,9 +31,12 @@ function Consulta(){
                         <div className="cep">
                             <p>{cadastro.cep}</p>
                         </div>
-                        <button> Editar </button>
-                        <button> Excluir </button>
-                            <p>---</p>
+                        <div className="btns">
+                            <button> Editar </button>
+                            <button> Excluir </button>
+                        </div>
+                        
+                            
                             
                     </div>
                 )))}
