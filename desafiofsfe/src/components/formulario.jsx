@@ -2,7 +2,7 @@ import React from "react";
 import Input from "./Input";
 // import InputMask from "react-input-mask";
 
-function FormCadastro(){
+function FormCadastroEmpresa(){
     return (
         <form >
             <Input
@@ -33,4 +33,4 @@ function FormCadastro(){
     )
 }
 
-export default FormCadastro
+export default FormCadastroEmpresa;

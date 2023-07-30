@@ -9,7 +9,7 @@ function NavBar () {
             <nav>
                 <Container>
                     <Link to="/" className={style.list}> Home </Link>
-                    <Link to="/cadastrarEmpresa" className={style.list}> Empresa </Link>
+                    {/* <Link to="/consultarCadastro" className={style.list}> Consulta </Link> */}
                 </Container>
             </nav>
         </div>

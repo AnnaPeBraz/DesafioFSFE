@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./styles/home.module.css"
-import ButtonLink from "./buttonLink";
+import styles from "../styles/home.module.css"
+import ButtonLink from "../buttonLink";
 
 
 function Home(){
@@ -9,6 +9,7 @@ function Home(){
             <h1>Bem vindo!</h1>
             <p>Como gostaria de seguir?</p>
             <ButtonLink to="/cadastrarEmpresa" text="Cadastrar Empresa"/>
+            <ButtonLink to="/cadastrarFornecedor" text="Cadastrar Fornecedor"/>
             <ButtonLink to="/consultarCadastro" text="Consultar Cadastros" />
         </section>
     )
